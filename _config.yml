@@ -1,7 +1,7 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: Rajesh Pethe
+twitter_username: 
+name: Rajesh Pethe
 
 # Build settings
 markdown: kramdown
@@ -9,16 +9,12 @@ markdown: kramdown
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
- - title: Blog
-   url: http://automateddeveloper.blogspot.com/
  - title: GitHub
-   url: https://github.com/robhinds
+   url: https://github.com/dteklavya
  - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
+   url: https://stackoverflow.com/users/6369774/user6399774
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+   url: https://www.linkedin.com/in/rajeshpethe/
 
 #Any buzzword skills you want to include
 skills:
