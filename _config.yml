@@ -55,9 +55,19 @@ roles:
 #Education is required
 education:
  - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+   date: 1996
+   subject: Mathematics
+   school: Guru Ghasidas University
+
+ - level: Diploma in Computer Programming and Applications.
+   date: 1997
+   subject: Computer Science
+   school: Guru Ghasidas University
+
+ - level: Certificate in C Language and Unix Shell Programming.
+   date: 1997
+   subject: Computer Science
+   school: Department of Electronics, DOEACC, Govt. Of India.
 
 #This section is optional (as is the image link below)
 coursera:
