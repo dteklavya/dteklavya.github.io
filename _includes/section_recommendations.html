@@ -1,18 +1,18 @@
-<div id="freelj" class="rounded_panel txt_lightgrey">
+<div id="recomms" class="rounded_panel txt_lightgrey">
 	<div class="top-rounded-panel grey-bg">
-		<h1>Freelance Journey</h1>
+		<h1>Recommendations</h1>
 	</div>
 	<div class="content-rounded-panel">
 		<div>
 			<div class="main-timeline4">
 
-					{% for role in site.flroles %}
+					{% for role in site.recomms %}
 						<div class="timeline">
-								<a href="#" class="timeline-content"  data-toggle="modal" data-target="#{{role.employer | replace: ' ', '_'}}-{{role.title | replace: ' ', '_'}}">
-										<span class="year">{{role.start}}</span>
+								<a href="#" class="timeline-content"  data-toggle="modal" data-target="#{{role.date | replace: ' ', '_'}}-{{role.title | replace: ' ', '_'}}">
+										<span class="year">{{role.date}}</span>
 										<div class="inner-content">
 												<h3 class="title">{{role.title}}</h3>
-												<h5>{{role.employer}}</h5>
+												<h5>{{role.designation}}</h5>
 										</div>
 								</a>
 						</div>
@@ -21,12 +21,12 @@
 
 
 			<!-- Modals -->
-			{% for role in site.flroles %}
-				<div class="modal fade" id="{{role.employer | replace: ' ', '_'}}-{{role.title | replace: ' ', '_'}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			{% for role in site.recomms %}
+				<div class="modal fade" id="{{role.date | replace: ' ', '_'}}-{{role.title | replace: ' ', '_'}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h3 class="modal-title">{{role.title}} - {{role.employer}}</h3>
+								<h3 class="modal-title">{{role.title}} - {{role.designation}}</h3>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									<span aria-hidden="true">&times;</span>
 								</button>

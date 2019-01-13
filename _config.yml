@@ -11,10 +11,22 @@ markdown: kramdown
 primarylinks:
  - title: GitHub
    url: https://github.com/dteklavya
- - title: StackOverflow
-   url: https://stackoverflow.com/users/6369774/user6399774
+   imageurl: img/GitHub-Mark-Light-32px.png
+# - title: StackOverflow
+#   url: https://stackoverflow.com/users/6369774/user6399774
  - title: LinkedIn
    url: https://www.linkedin.com/in/rajeshpethe/
+   imageurl: img/In-2C-34px-R.png
+
+pagelinks:
+ - title: Work
+   url: '#workExperience'
+ - title: Recommendations
+   url: '#recommendations'
+ - title: Education
+   url: '#education'
+
+
 
 #Any buzzword skills you want to include
 skills:
@@ -130,6 +142,33 @@ education:
    date: 1998
    subject: Computer Science and Programming
    school: Department of Electronics DOEACC Govt Of India
+
+
+# Recommendations
+recomms:
+ - title: James Freeman
+   designation: Founder GP2U Telehealth - Doctors Online
+   date: 2011
+   description: Rajesh is an outstanding software engineer. We have found him trustworthy, consistent and reliable. His deep and detailed knowledge helped forge the bedrock of a complex Java/Perl integration project. If you are looking for and expert who produces superlative work look no further....
+ - title: Eric Holstege
+   designation: CTO/VPE e-commerce
+   date: 2010
+   description: Rajesh is an extremely talented and capable Object Oriented Perl programmer. He came into an existing code base and rapidly learned it and made it his own, generating very productive work almost immediately. A fast learner and Perl expert - and a joy to work with I would hire him again if the opportunity arose.
+ - title: Calvin Wong
+   designation: Senior QA Lead at Paypal
+   date: 2009
+   description: I had the good fortune to have worked with Rajesh at Globalware Solutions. As a project lead, it was reassuring to have Rajesh on the engineering team because he writes solid code which he delivered on time. Rajesh would be an asset to any organization. Additionally, he's a great guy!
+ - title: Ganesh Nayak
+   designation: Senior Technical Project Manager
+   date: 2010
+   description: I have worked as the Project Manager assigning Engineering tasks to Rajesh for various clients of Globalware Solutions. Rajesh is an exceptionally brilliant Software Engineering Professional. His ability to quickly grasp the functional requirements and follow-up on design and implementation with the highest degree of quality is the best recipe for the success of any organization he is affiliated with. Rajesh's attention to best practices in product development process and customer requirement details are just two of his many critical assets. I strongly recommend Rajesh for any endeavor he wishes to undertake in his field of expertise.
+ - title: Larry Mantel
+   designation: Senior QA Lead at Globalware Solutions
+   date: 2009
+   description: I have really enjoyed and still enjoy working with Rajesh at GWS. He is a remarkable developer who is able to pick up any project on a fly and get up to speed pretty fast.He is a very detailed, creative, cooperative, and reliable individual that can be a great asset to any software development team. On top of all that he is a great team player.To companies which are looking for developers. Don’t pass a great opportunity to have him on board! Believe me you are going to enjoy working with this guy.
+
+
+
 
 #This section is optional (as is the image link below)
 coursera:

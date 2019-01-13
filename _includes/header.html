@@ -6,9 +6,22 @@
 			</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
+		
+		<ul class="nav navbar-nav navbar-left">
+				{% for link in site.pagelinks %}
+					<li><a href="{{link.url}}">{{link.title}}</a></li>
+				{% endfor %}
+		</ul>
+		
 			<ul class="nav navbar-nav navbar-right">
 				{% for link in site.primarylinks %}
-					<li><a target='_blank' href="{{link.url}}">{{link.title}}</a></li>
+					<!-- <li><a target='_blank' href="{{link.url}}">{{link.title}}</a></li>  -->
+					
+					<li><a target='_blank' href="{{link.url}}">
+						<img src="{{link.imageurl}}" 
+							alt="GitHub" title="GitHub">
+					</a></li>
+					
 				{% endfor %}
 			</ul>
 		</div>
