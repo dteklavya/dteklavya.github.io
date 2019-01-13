@@ -21,10 +21,10 @@ primarylinks:
 pagelinks:
  - title: Work
    url: '#workExperience'
- - title: Recommendations
-   url: '#recommendations'
  - title: Education
    url: '#education'
+ - title: Recommendations
+   url: '#recommendations'
 
 
 

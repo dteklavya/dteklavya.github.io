@@ -4,9 +4,17 @@
 }
 .navbar-inverse .nav>li>a {
 	color: #A5C5DF;
+	font-size: 0.9em !important;
 }
 .navbar-inverse .brand {
 	color: white;
+}
+.navbar-brand {
+	color: red;
+	font-size: 2em !important;
+}
+.navbar-left {
+	padding-left: 90px;
 }
 .navbar-inverse  {
 	background-color: #4B8ABE;
