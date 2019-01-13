@@ -25,6 +25,18 @@
 	box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
 }
 
+#workExperience {
+    padding-top: 35px;
+}
+
+#education {
+    padding-top: 35px;
+}
+
+#recommendations {
+    padding-top: 35px;
+}
+
 /** skills labels  **/
 .label-padded {
 	padding: 5px;
