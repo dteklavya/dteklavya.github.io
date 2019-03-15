@@ -48,6 +48,26 @@ skills:
 # Work experience as a Free Lancer
 
 flroles:
+ - title: Twitter Sentiment Analysis
+   start: 2019
+   end: Ongoing
+   employer: Pet Project
+   description: The application get tweets through Twitter's streaming API and feeds it to Apache Spark's Machine Learning (ML) Pipeline which predicts the sentiment of the tweet.The ML pipeline uses Naive Bayes model which is trained using Sentiment140. The results from Spark predictions are then stored in Redis to be used by a Flask web application to render the results on webpage. The technical stack used included Python, python-twitter library, PySpark, Redis and Flask (A Python Microframework).
+ - title: Django Twitter Auth
+   start: 2018
+   end: Ongoing
+   employer: Pet Project
+   description: Implemented Twitter authentication application for Django. This standalone package/module can be used with any Django application to use Twitter's Oauth API for authentication.
+ - title: Django Twitter Mining
+   start: 2018
+   end: Ongoing
+   employer: Pet Project
+   description: Django application uses the Django Twitter Auth app and provides various end points to query Twitter API and throw results from Dajngo views. It currently implements search, trends search, Twitter streaming results etc.
+ - title: Identifying Twitter Bots
+   start: 2018
+   end: Ongoing
+   employer: Side Project
+   description: The tool filters out or list the bots on Twitter based on various critea. Also, counts the number of bot fed tweets based on hash tags.
  - title: Core Platform Engineer
    start: 2017
    end: Ongoing
