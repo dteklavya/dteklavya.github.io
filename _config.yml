@@ -31,6 +31,9 @@ pagelinks:
 #Any buzzword skills you want to include
 skills:
  - Python
+ - Django REST Framework
+ - Flask
+ - Celery
  - PySPark
  - Apache Spark
  - Perl
@@ -48,6 +51,11 @@ skills:
 # Work experience as a Free Lancer
 
 flroles:
+ - title: Twitter Analytics Dashboard
+   start: 2019
+   end: Ongoing
+   employer: Side Project
+   description: The application involves Django REST framework back-end API with React, Redux in frontend using Material UI. This single page applications handles authentication and kicking off Twitter search tasks which is handled by Celery. Celery, Django, React are loosely coupled to report progress on tasks.  
  - title: Twitter Sentiment Analysis
    start: 2019
    end: Ongoing
