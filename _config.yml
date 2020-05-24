@@ -34,6 +34,8 @@ skills:
  - Django REST Framework
  - Flask
  - Celery
+ - Docker
+ - Travis
  - PySPark
  - Apache Spark
  - Perl
