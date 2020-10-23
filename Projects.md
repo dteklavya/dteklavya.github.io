@@ -1,5 +1,13 @@
 # Projects
 
+## Swagger
+
+Used Swagger for documenting complicated API endpoints using Django Serializers. Documentation included clearly defined parameters and response data structure. Also customized Swagger to filter endpoints based on authenticated user.
+
+## DevOps / AWS
+
+Helped to fix bugs in core process responsible for bringing up an EC2 instance and installing all needed dependencies.
+
 ## Travis
 
 Discovered and fixed a bug in **Travis** configuration where a **Docker** service was not being configured properly.
