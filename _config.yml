@@ -53,7 +53,8 @@ flroles:
    start: 2020
    end: Ongoing
    employer: Pivotal Energy Solutions
-   description: Working on transforming legacy web application written in Django and Angular JS to Django REST Framework and Angular. Developed innovative data intensive solutions to extract, transform and load data using Django Serializers.
+   description: Working on transforming legacy web application written in Django and Angular JS to Django REST Framework and Angular.
+                <br><br>Developed innovative data intensive solutions to extract, transform and load data using Django Serializers.
  - title: Core Platform Engineer
    start: 2019
    end: 2020
