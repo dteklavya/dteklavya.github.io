@@ -49,6 +49,16 @@ skills:
 # Work experience as a Free Lancer
 
 flroles:
+ - title: Consultant Software Engineer
+   start: 2020
+   end: Ongoing
+   employer: Pivotal Energy Solutions
+   description: Working on transforming legacy web application written in Django and Angular JS to Django REST Framework and Angular. Developed innovative data intensive solutions to extract, transform and load data using Django Serializers.
+ - title: Core Platform Engineer
+   start: 2019
+   end: 2020
+   employer: Collective2
+   description: Short term project for specific enhancements to similar project done with Collective2.
  - title: Twitter Analytics Dashboard
    start: 2019
    end: Ongoing
