@@ -246,13 +246,13 @@ stackoverflow:
    flairimageurl: http://stackoverflow.com/users/flair/258813.png
 
 intro: |
-  I am an engineer with over 15 years experience working in technology. I have primarily worked on the Perl and Python, but have worked across a broad range of technologies and platforms including: Linux, Java, Ruby and most recently Apache Spark. As well as spending a good amount of time building applications for the web, which has given me an exposure to a range of JavaScript technologies over the years, through jQuery and most recently to Angular JS. <br/><br/>
+  I am an engineer with over 17 years experience working in technology. I have primarily worked on the Perl and Python, but have worked across a broad range of technologies and platforms including: Linux, Java, Ruby and most recently Apache Spark. As well as spending a good amount of time building applications for the web, which has given me an exposure to a range of JavaScript technologies over the years, through jQuery and most recently to Angular JS. <br/><br/>
   I enjoy building products that demand performance and clean codebase, having worked a lot in Perl and related technologies, I know what a clean code is and how and when to optimise. 
   I have worked in large, medium and small teams for various companies and I'm currently working as a Free Lancer for last seven years. I love my current role as it provides me with flexibility and also challenges me to stretch my limits.
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>Python</strong>: I'm currently using Python as the primary language and have been building applications in Python for the last three years. I am familiar with a range of Python libraries and frameworks, such as Django, Django REST Framework, Flask for building microservices. I've also developed backend tools using PySpark, requests, BeautifulSoup, Selenium, twitter etc. <br/><br/>
+   <strong>Python</strong>: I'm currently using Python as the primary language and have been building applications in Python for the last five years. I am familiar with a range of Python libraries and frameworks, such as Django, Django REST Framework, Flask for building microservices. I've also developed backend tools using PySpark, requests, BeautifulSoup, Selenium, twitter etc. <br/><br/>
    <strong>Perl</strong>: I have deep experienced in Perl and frameworks. I have worked with Catalyst (MVC), DBIx (ORM), POE, Moose, Inline::Java in addition to others. <br/><br/>
    <strong>SQL/NoSQL</strong>: I have deep exposure to PostGreSQL, MySQL, Oracle and MondoDB<br/><br/>
    <strong>Design Patterns</strong>: I have strong understanding of MVC, Active Record/ORM, MVP design patterns.<br/><br/>
