@@ -32,19 +32,15 @@ pagelinks:
 skills:
  - Python
  - Django REST Framework
+ - Angular
+ - React JS
  - Flask
- - Celery
- - Docker
- - Travis
  - PySPark
  - Apache Spark
  - Perl
  - Angular JS
- - jQuery
  - Microservices
  - SQL
- - NoSQL
- - REST
  - Technical Architecture
  - Machine learning
  - Algorithmic Problem Solving
