@@ -50,6 +50,11 @@ skills:
 # Work experience as a Free Lancer
 
 flroles:
+ - title: Core Platform Engineer
+   start: 2023
+   end: Ongoing
+   employer: Collective2
+   description: Part time assignments for specific enhancements and maintenance to products with Collective2.
  - title: Consultant Software Engineer
    start: 2020
    end: Ongoing
@@ -235,10 +240,10 @@ speakerdeck:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - dteklavya/spark_streaming_twitter_analysis
- - dteklavya/django_twitter_auth
+ - dteklavya/indic-translations-api
+ - dteklavya/bhashini_translator
+ - dteklavya/kodeKloud-level-3-kubernetes
  - dteklavya/django_twitter_mining
- - dteklavya/LeetCode
  - dteklavya/Algorithms
  - dteklavya/PyBites
 
@@ -255,13 +260,16 @@ intro: |
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
+   <strong>Strong Backend Development Experience</strong>: I have a proven track record of developing and maintaining core pipeline applications, APIs, and services. My expertise in Python, coupled with my proficiency in Linux, enables me to seamlessly integrate front-end and back-end components to create robust and scalable web applications.<br/><br/>
+   <strong>Expertise in API Development</strong>: I have a strong background in developing and maintaining APIs, implementing API security measures, and ensuring the smooth integration of APIs into applications. My experience in designing and managing databases required for API operations, as well as my knowledge of API testing and documentation, makes me a likeable member of any team.<br/><br/>
+   <strong>DevOps</strong>: I have deep experience working with AWS infrastructure, ensuring performance, security, and scalability. By leveraging my expertise in Linux Containers and Docker, Kubernetes and Terraform, I can build flexible and maintainable infrastructure.<br/><br/>
    <strong>Python</strong>: I'm currently using Python as the primary language and have been building applications in Python for the last eight years. I am familiar with a range of Python libraries and frameworks, such as Django, Django REST Framework, Flask for building microservices. I've also developed backend tools using PySpark, requests, BeautifulSoup, Selenium, twitter etc. <br/><br/>
+   <strong>Front End</strong>: I have lot of experience in Jvascript and its framworks like Angular and Next.JS/React.JS in consuming APIs and developing single page applications.<br/><br/>
    <strong>Perl</strong>: I have deep experienced in Perl and frameworks. I have worked with Catalyst (MVC), DBIx (ORM), POE, Moose, Inline::Java in addition to others. <br/><br/>
    <strong>SQL/NoSQL</strong>: I have deep exposure to PostGreSQL, MySQL, Oracle and MondoDB<br/><br/>
    <strong>Design Patterns</strong>: I have strong understanding of MVC, Active Record/ORM, MVP design patterns.<br/><br/>
    <strong>Cloud platforms</strong>: I have primarily used AWS for running production applications on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3. Recently I setup encrypted storage on S3.  
    <strong>Web Development</strong>: I have worked with various client side technologies, having used jQuery, Bootstrap. More recently I have written Angular JS applications.<br/><br/>
    <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Jira etc.<br/><br/>
-   <strong>IDEs</strong>: I have worked with all of Eclipse, Jupyter, Komodo IDE, Vim etc. Eclipse is my favorite with PyDev (Python) and EPIC (Perl) plugins. <br/><br/>
-   <strong>Big Data</strong>: I'm highly motivated to grasp Big Data and have done my own side projects and research and I'm comfortable working with Apache Spark with PySpark. I can setup an MLlib Pipeline with PySpark and enjoy doing it. </br></br>  
+   <strong>IDEs</strong>: I have worked with all of Eclipse, Jupyter, Komodo IDE, Vim, VSCode etc. VS Code is my current favorite IDE. <br/><br/>
    

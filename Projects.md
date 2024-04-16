@@ -1,10 +1,26 @@
 # Projects
 
+## Python Bhashini Package
+
+Devloped Python package to ineract with Bhashini APIs (language solutions for Indian languages using LLMs). It is a stanalone package ready to be used in any Python application allowing users to leverage Bhashini APIs without much effort.
+
+## DRF APIs for Bhashini
+
+Developed Django REST API that uses Bhanshini package and provides easy to use end-points - makes intergrating Bhashini APIs in any Django app a breeze.
+
+API is duly documented using Swagger Spectacular.
+
+## Front-end for Bhashini Django API
+
+Developed a UI using Next.JS/React.JS using Bhashini API.
+
 ## Swagger
 
 Used Swagger for documenting complicated API endpoints using Django Serializers. Documentation included clearly defined parameters and response data structure. Also customized Swagger to filter endpoints based on authenticated user.
 
 ## DevOps / AWS
+
+Dockerized Django (REST) application with Gunicorn and Nginx.
 
 Helped to fix bugs in core process responsible for bringing up an EC2 instance and installing all needed dependencies.
 
