@@ -27,6 +27,28 @@ pagelinks:
     url: "#recommendations"
 
 #Any buzzword skills you want to include
+prog_skills:
+  - Python
+  - Django REST Framework
+  - Flask
+  - Bash
+  - Perl
+  - Angular
+  - React JS
+  - SQL
+
+containerization_skills:
+  - Docker
+  - Kubernetes
+  
+cloud_skills:
+  - Linux
+  - AWS
+  - Terraform
+
+cicd_skills:
+  - GitHub Workflows
+
 skills:
   - Python
   - Django REST Framework
