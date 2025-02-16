@@ -67,28 +67,64 @@ skills:
   - Machine learning
   - Algorithmic Problem Solving
 
-#Work experience is required
 # Work experience as a Free Lancer
-
 flroles:
+  - title: Consultant Software Engineer
+    start: 2024
+    end: Ongoing
+    employer: Jain Associates
+    description:
+      <ul>
+        <li>
+          Implemented document management system for physical documents resulting in searchable and AI trained query interface.
+        </li>
+        <li>
+          Tech Stack - <strong>Django REST API, Paperless-ngx, LangChain, OpenAI API</strong>
+        </li>
+      </ul>
   - title: Senior Software Engineer
     start: 2023
     end: 2023
     employer: Pivotal Energy Solutions
     description:
-      Developed secure and context aware web solution that resulted in removing human interventions for routine tasks. Tech stack - Django REST, MySQL.
+      <ul>
+        <li>
+          Developed secure and context aware web solution that resulted in removing human interventions for routine tasks. Tech stack - <strong>Django REST API, MySQL</strong>.
+        </li>
+        <li>
+          Developed full stack solution to render <strong><i>FloorPlans</i></strong>. App detailed numerous key items and their values from walls to equipment installed with their respective specifications.
+        </li>
+        <li>
+          Tech stack - <strong>Django REST API, Angular, MySQL</strong>.
+        </li>
+      </ul>
   - title: Core Platform Engineer
     start: 2023
     end: Ongoing
     employer: Collective2
-    description: Involved in specific enhancements and maintenance of products with Collective2's strategy trading platform.
+    description: 
+      <ul>
+        <li>
+          Involved in specific enhancements and maintenance of products with Collective2's strategy trading platform.
+        </li>
+        <li>
+          Tech Stack - Perl, MySQL
+        </li>
+      <ul>
   - title: Senior Software Engineer
     start: 2020
-    end: Ongoing
+    end: 2023
     employer: Pivotal Energy Solutions
     description:
-      Deeply engaged in cross functional teams on transforming legacy web application written in Django and Angular JS to Django REST Framework and Angular.
-      <br><br>Developed innovative data intensive solutions to extract, transform and load data using Django Serializers classes.
+      <ul>
+        <li>
+          Involved in cross functional teams on transforming legacy web application written in Django and Angular JS to Django REST Framework and Angular.
+        </li>
+        <li>
+          Developed innovative data intensive solutions to extract, transform and load data using Django Serializers classes.
+        </li>
+        <li>Tech Stack - Django REST API, MySQL<li>
+      <ul>
   - title: Core Platform Engineer
     start: 2019
     end: 2020
