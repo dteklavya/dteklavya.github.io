@@ -1,6 +1,6 @@
 # Site settings
 title: Rajesh Pethe
-twitter_username: 
+twitter_username:
 name: Rajesh Pethe
 
 # Build settings
@@ -9,214 +9,214 @@ markdown: kramdown
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
- - title: GitHub
-   url: https://github.com/dteklavya
-   imageurl: img/GitHub-Mark-Light-32px.png
-# - title: StackOverflow
-#   url: https://stackoverflow.com/users/6369774/user6399774
- - title: LinkedIn
-   url: https://www.linkedin.com/in/rajeshpethe/
-   imageurl: img/In-2C-34px-R.png
+  - title: GitHub
+    url: https://github.com/dteklavya
+    imageurl: img/GitHub-Mark-Light-32px.png
+  # - title: StackOverflow
+  #   url: https://stackoverflow.com/users/6369774/user6399774
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/rajeshpethe/
+    imageurl: img/In-2C-34px-R.png
 
 pagelinks:
- - title: Work
-   url: '#workExperience'
- - title: Education
-   url: '#education'
- - title: Recommendations
-   url: '#recommendations'
-
-
+  - title: Work
+    url: "#workExperience"
+  - title: Education
+    url: "#education"
+  - title: Recommendations
+    url: "#recommendations"
 
 #Any buzzword skills you want to include
 skills:
- - Python
- - Django REST Framework
- - Flask
- - Docker
- - AWS
- - Terraform
- - Kubernetes
- - Angular
- - React JS
- - Microservices
- - SQL
- - Technical Architecture
- - Machine learning
- - Algorithmic Problem Solving
-
+  - Python
+  - Django REST Framework
+  - Flask
+  - Docker
+  - AWS
+  - Terraform
+  - Kubernetes
+  - Angular
+  - React JS
+  - Microservices
+  - SQL
+  - Technical Architecture
+  - Machine learning
+  - Algorithmic Problem Solving
 
 #Work experience is required
 # Work experience as a Free Lancer
 
 flroles:
- - title: Core Platform Engineer
-   start: 2023
-   end: Ongoing
-   employer: Collective2
-   description: Part time assignments for specific enhancements and maintenance to products with Collective2.
- - title: Consultant Software Engineer
-   start: 2020
-   end: Ongoing
-   employer: Pivotal Energy Solutions
-   description: Working on transforming legacy web application written in Django and Angular JS to Django REST Framework and Angular.
-                <br><br>Developed innovative data intensive solutions to extract, transform and load data using Django Serializers.
- - title: Core Platform Engineer
-   start: 2019
-   end: 2020
-   employer: Collective2
-   description: Short term project for specific enhancements to similar project done with Collective2.
- - title: Twitter Analytics Dashboard
-   start: 2019
-   end: Ongoing
-   employer: Side Project
-   description: The application involves Django REST framework back-end API with React, Redux in frontend using Material UI. This single page applications handles authentication and kicking off Twitter search tasks which is handled by Celery. Celery, Django, React are loosely coupled to report progress on tasks.  
- - title: Twitter Sentiment Analysis
-   start: 2019
-   end: Ongoing
-   employer: Pet Project
-   description: The application get tweets through Twitter's streaming API and feeds it to Apache Spark's Machine Learning (ML) Pipeline which predicts the sentiment of the tweet.The ML pipeline uses Naive Bayes model which is trained using Sentiment140. The results from Spark predictions are then stored in Redis to be used by a Flask web application to render the results on webpage. The technical stack used included Python, python-twitter library, PySpark, Redis and Flask (A Python Microframework).
- - title: Django Twitter Auth
-   start: 2018
-   end: Ongoing
-   employer: Pet Project
-   description: Implemented Twitter authentication application for Django. This standalone package/module can be used with any Django application to use Twitter's Oauth API for authentication.
- - title: Django Twitter Mining
-   start: 2018
-   end: Ongoing
-   employer: Pet Project
-   description: Django application uses the Django Twitter Auth app and provides various end points to query Twitter API and throw results from Dajngo views. It currently implements search, trends search, Twitter streaming results etc.
- - title: Identifying Twitter Bots
-   start: 2018
-   end: Ongoing
-   employer: Side Project
-   description: The tool filters out or list the bots on Twitter based on various critea. Also, counts the number of bot fed tweets based on hash tags.
- - title: Core Platform Engineer
-   start: 2017
-   end: Ongoing
-   employer: Collective2
-   description: Added several enhancements to high availability, mission-critical legacy code base for <a href="https://trade.collective2.com/" taget="_blank">Collective2</a> trading platform. Developed feature rich profit and loss report for traders and investors. The technology stack included Perl, MySQL, HTML::Template, Memcache, Apache etc.
- - title: Python Django Developer
-   start: 2016
-   end: 2017
-   employer: Upwork Client
-   description: Developed ECAdvisor.co from ground up using Django REST framework, AngularJS and MySQL. Also developed CHealth web application from ground up using Django REST framework, AngularJS and MySQL. Compliance with FHIR models was a critical part of back-end application design.
- - title: Backend Python Developer
-   start: 2016
-   end: 2017
-   employer: An Upwork Client
-   description: Developed web scrapers for CHealth application using Python's Selenium and BeatifulSoup frameworks.
- - title: Perl Catalyst Developer
-   start: 2013
-   end: 2018
-   employer: Three6Five
-   description: <a href="https://www.three6five.com/" taget="_blank">Three6Five</a> is a networking systems integrator in Africa. </br></br>
-                Developed and maintained Network monitoring and reporting tools IPAM and IRIS. Technology stack included Perl Catalyst, PotGreSQL, jQuery/JSTree and Free BSD.
- - title: Project Lead
-   start: 2012
-   end: 2013
-   employer: Globalware Solutions
-   description: Having had unique exposure to Globalware Solution's Power Access(PA) platform, took complete ownership and worked as a single point contact for PA.</br></br>
-                Managed distributed team and achieved high availability and client satisfaction.</br></br>
-                Developed tools that made QA's and Operation's team's life easier.
- - title: Perl Catalyst Developer
-   start: 2011
-   end: 2013
-   employer: Exceleron Inc
-   description: Developed PAMS from ground up as a multi tenant web application aimed to be a single access point for clients and their end customers.</br></br>
-                Technology stack included Perl's Catalyst framework, Memcached, jQuery with PostGreSQL database.</br></br>
-                Hacked Open Source issue tracking system Request Tracker(RT) to integrate it with PAMS web interface including Single Sign On login using PAMS database instead of RT's default. It was enhanced to implement tight security based on user's groups using various custom hooks provided by RT's interface.
-                <a href="https://www.exceleron.com/" taget="_blank">Exceleron</a> <a href="https://www.myusage.com/" taget="_blank">MyUsage</a>
- - title: Senior Developer
-   start: 2011
-   end: 2011
-   employer: GP2U
-   description: A Java/Perl integration project involved integration of <a href="https://gp2u.com.au/" taget="_blank">GP2U's</a> Catalyst application with Medicare Australia's Java API used in billing and payments of medical insurance. This involved agile, test driven  development.                
+  - title: Core Platform Engineer
+    start: 2023
+    end: Ongoing
+    employer: Collective2
+    description: Part time assignments for specific enhancements and maintenance to products with Collective2.
+  - title: Consultant Software Engineer
+    start: 2020
+    end: Ongoing
+    employer: Pivotal Energy Solutions
+    description:
+      Working on transforming legacy web application written in Django and Angular JS to Django REST Framework and Angular.
+      <br><br>Developed innovative data intensive solutions to extract, transform and load data using Django Serializers.
+  - title: Core Platform Engineer
+    start: 2019
+    end: 2020
+    employer: Collective2
+    description: Short term project for specific enhancements to similar project done with Collective2.
+  - title: Twitter Analytics Dashboard
+    start: 2019
+    end: Ongoing
+    employer: Side Project
+    description: The application involves Django REST framework back-end API with React, Redux in frontend using Material UI. This single page applications handles authentication and kicking off Twitter search tasks which is handled by Celery. Celery, Django, React are loosely coupled to report progress on tasks.
+  - title: Twitter Sentiment Analysis
+    start: 2019
+    end: Ongoing
+    employer: Pet Project
+    description: The application get tweets through Twitter's streaming API and feeds it to Apache Spark's Machine Learning (ML) Pipeline which predicts the sentiment of the tweet.The ML pipeline uses Naive Bayes model which is trained using Sentiment140. The results from Spark predictions are then stored in Redis to be used by a Flask web application to render the results on webpage. The technical stack used included Python, python-twitter library, PySpark, Redis and Flask (A Python Microframework).
+  - title: Django Twitter Auth
+    start: 2018
+    end: Ongoing
+    employer: Pet Project
+    description: Implemented Twitter authentication application for Django. This standalone package/module can be used with any Django application to use Twitter's Oauth API for authentication.
+  - title: Django Twitter Mining
+    start: 2018
+    end: Ongoing
+    employer: Pet Project
+    description: Django application uses the Django Twitter Auth app and provides various end points to query Twitter API and throw results from Dajngo views. It currently implements search, trends search, Twitter streaming results etc.
+  - title: Identifying Twitter Bots
+    start: 2018
+    end: Ongoing
+    employer: Side Project
+    description: The tool filters out or list the bots on Twitter based on various critea. Also, counts the number of bot fed tweets based on hash tags.
+  - title: Core Platform Engineer
+    start: 2017
+    end: Ongoing
+    employer: Collective2
+    description: Added several enhancements to high availability, mission-critical legacy code base for <a href="https://trade.collective2.com/" taget="_blank">Collective2</a> trading platform. Developed feature rich profit and loss report for traders and investors. The technology stack included Perl, MySQL, HTML::Template, Memcache, Apache etc.
+  - title: Python Django Developer
+    start: 2016
+    end: 2017
+    employer: Upwork Client
+    description: Developed ECAdvisor.co from ground up using Django REST framework, AngularJS and MySQL. Also developed CHealth web application from ground up using Django REST framework, AngularJS and MySQL. Compliance with FHIR models was a critical part of back-end application design.
+  - title: Backend Python Developer
+    start: 2016
+    end: 2017
+    employer: An Upwork Client
+    description: Developed web scrapers for CHealth application using Python's Selenium and BeatifulSoup frameworks.
+  - title: Perl Catalyst Developer
+    start: 2013
+    end: 2018
+    employer: Three6Five
+    description:
+      <a href="https://www.three6five.com/" taget="_blank">Three6Five</a> is a networking systems integrator in Africa. </br></br>
+      Developed and maintained Network monitoring and reporting tools IPAM and IRIS. Technology stack included Perl Catalyst, PotGreSQL, jQuery/JSTree and Free BSD.
+  - title: Project Lead
+    start: 2012
+    end: 2013
+    employer: Globalware Solutions
+    description:
+      Having had unique exposure to Globalware Solution's Power Access(PA) platform, took complete ownership and worked as a single point contact for PA.</br></br>
+      Managed distributed team and achieved high availability and client satisfaction.</br></br>
+      Developed tools that made QA's and Operation's team's life easier.
+  - title: Perl Catalyst Developer
+    start: 2011
+    end: 2013
+    employer: Exceleron Inc
+    description:
+      Developed PAMS from ground up as a multi tenant web application aimed to be a single access point for clients and their end customers.</br></br>
+      Technology stack included Perl's Catalyst framework, Memcached, jQuery with PostGreSQL database.</br></br>
+      Hacked Open Source issue tracking system Request Tracker(RT) to integrate it with PAMS web interface including Single Sign On login using PAMS database instead of RT's default. It was enhanced to implement tight security based on user's groups using various custom hooks provided by RT's interface.
+      <a href="https://www.exceleron.com/" taget="_blank">Exceleron</a> <a href="https://www.myusage.com/" taget="_blank">MyUsage</a>
+  - title: Senior Developer
+    start: 2011
+    end: 2011
+    employer: GP2U
+    description: A Java/Perl integration project involved integration of <a href="https://gp2u.com.au/" taget="_blank">GP2U's</a> Catalyst application with Medicare Australia's Java API used in billing and payments of medical insurance. This involved agile, test driven  development.
 
 roles:
- - title: Technical Associate
-   start: 2010
-   end: 2010
-   employer: JP Morgan Chase
-   description: Developed performance critical tools used for compliance monitoring in Investment Banking division of <a href="https://www.jpmorganchase.com/" target="_blank">JP Morgan Chase</a>
- - title: Senior Developer
-   start: 2008
-   end: 2010
-   employer: Globalware Solutions
-   description: Globalware’s Power Commerce is a highly complex e-commerce web store which has the flexibility to host multiple web stores. Added critical enhancements to the legacy framework.</br></br>
-                Designed and development of customer service tools within the existing framework.</br></br>
-                Integrated third party software/tool called taxware (by ADP) which is used for tax calculations for all locations in US, CAN and Europe.</br></br>
-                Developed complex ESD store for SPSS where SPSS's subscriptions and licenses were purchased by end users.<br></br>
-                Integrated US Commerce Department's Denied Party List to platform which allowed the software to reject orders based on IP, region or individuals.
- - title: Senior Engineer
-   start: 2006
-   end: 2008
-   employer: Oracle India Pvt Ltd
-   description: Involved in full life cycle development and maintenance of Monitoring applications which were part of the GIT monitoring/automation framework. Applications included web based as well as back end tools/daemons.</br></br>
-                Used Perl's POE's framework to develop fast/asynchronous monitoring daemon.</br></br>
-                Designed and developed a web based Power Tracker tool for data center Operations.</br></br>
- - title: Senior Engineer
-   start: 2005
-   end: 2006
-   employer: Mahindra British Telecom
-   description: Develped and maintained telecom applications for UK based service provider. Technology stack included Perl, Catalyst, Oracle Database and jQuery.
- - title: More Work History
-   start: 1998
-   end: 2005
-   employer: Please see Description
-   description: Innova Solutions Pvt Ltd (March 2005  - August 2005). Programmer Analyst for Franklin Templeton's FTCI.</br></br>
-                Shreya.com Pvt Ltd (January 2004 - March 2005). Developer, web applications using PHP, Perl, Apache and MySQL.</br></br>
-                Mu Software Analysis and Informatics (Sept. 2001 – December 2003).</br></br>
-                Telenet Systems (December 1998 – June 2001).</br></br>
+  - title: Technical Associate
+    start: 2010
+    end: 2010
+    employer: JP Morgan Chase
+    description: Developed performance critical tools used for compliance monitoring in Investment Banking division of <a href="https://www.jpmorganchase.com/" target="_blank">JP Morgan Chase</a>
+  - title: Senior Developer
+    start: 2008
+    end: 2010
+    employer: Globalware Solutions
+    description:
+      Globalware’s Power Commerce is a highly complex e-commerce web store which has the flexibility to host multiple web stores. Added critical enhancements to the legacy framework.</br></br>
+      Designed and development of customer service tools within the existing framework.</br></br>
+      Integrated third party software/tool called taxware (by ADP) which is used for tax calculations for all locations in US, CAN and Europe.</br></br>
+      Developed complex ESD store for SPSS where SPSS's subscriptions and licenses were purchased by end users.<br></br>
+      Integrated US Commerce Department's Denied Party List to platform which allowed the software to reject orders based on IP, region or individuals.
+  - title: Senior Engineer
+    start: 2006
+    end: 2008
+    employer: Oracle India Pvt Ltd
+    description:
+      Involved in full life cycle development and maintenance of Monitoring applications which were part of the GIT monitoring/automation framework. Applications included web based as well as back end tools/daemons.</br></br>
+      Used Perl's POE's framework to develop fast/asynchronous monitoring daemon.</br></br>
+      Designed and developed a web based Power Tracker tool for data center Operations.</br></br>
+  - title: Senior Engineer
+    start: 2005
+    end: 2006
+    employer: Mahindra British Telecom
+    description: Develped and maintained telecom applications for UK based service provider. Technology stack included Perl, Catalyst, Oracle Database and jQuery.
+  - title: More Work History
+    start: 1998
+    end: 2005
+    employer: Please see Description
+    description:
+      Innova Solutions Pvt Ltd (March 2005  - August 2005). Programmer Analyst for Franklin Templeton's FTCI.</br></br>
+      Shreya.com Pvt Ltd (January 2004 - March 2005). Developer, web applications using PHP, Perl, Apache and MySQL.</br></br>
+      Mu Software Analysis and Informatics (Sept. 2001 – December 2003).</br></br>
+      Telenet Systems (December 1998 – June 2001).</br></br>
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 1996
-   subject: Mathematics
-   school: Guru Ghasidas University
+  - level: Bachelor of Science (B.Sc.)
+    date: 1996
+    subject: Mathematics
+    school: Guru Ghasidas University
 
- - level: Diploma in Computer Programming and Applications.
-   date: 1997
-   subject: Computer Science
-   school: Guru Ghasidas University
+  - level: Diploma in Computer Programming and Applications.
+    date: 1997
+    subject: Computer Science
+    school: Guru Ghasidas University
 
- - level: Certificate in 'C' Language and Unix Shell Programming.
-   date: 1998
-   subject: Computer Science and Programming
-   school: Department of Electronics DOEACC Govt Of India
-
+  - level: Certificate in 'C' Language and Unix Shell Programming.
+    date: 1998
+    subject: Computer Science and Programming
+    school: Department of Electronics DOEACC Govt Of India
 
 # Recommendations
 recomms:
- - title: James Freeman
-   designation: Founder GP2U Telehealth - Doctors Online
-   date: 2011
-   description: Rajesh is an outstanding software engineer. We have found him trustworthy, consistent and reliable. His deep and detailed knowledge helped forge the bedrock of a complex Java/Perl integration project. If you are looking for and expert who produces superlative work look no further....
- - title: Eric Holstege
-   designation: CTO/VPE e-commerce
-   date: 2010
-   description: Rajesh is an extremely talented and capable Object Oriented Perl programmer. He came into an existing code base and rapidly learned it and made it his own, generating very productive work almost immediately. A fast learner and Perl expert - and a joy to work with I would hire him again if the opportunity arose.
- - title: Calvin Wong
-   designation: Senior QA Lead at Paypal
-   date: 2009
-   description: I had the good fortune to have worked with Rajesh at Globalware Solutions. As a project lead, it was reassuring to have Rajesh on the engineering team because he writes solid code which he delivered on time. Rajesh would be an asset to any organization. Additionally, he's a great guy!
- - title: Ganesh Nayak
-   designation: Senior Technical Project Manager
-   date: 2010
-   description: I have worked as the Project Manager assigning Engineering tasks to Rajesh for various clients of Globalware Solutions. Rajesh is an exceptionally brilliant Software Engineering Professional. His ability to quickly grasp the functional requirements and follow-up on design and implementation with the highest degree of quality is the best recipe for the success of any organization he is affiliated with. Rajesh's attention to best practices in product development process and customer requirement details are just two of his many critical assets. I strongly recommend Rajesh for any endeavor he wishes to undertake in his field of expertise.
- - title: Larry Mantel
-   designation: Senior QA Lead at Globalware Solutions
-   date: 2009
-   description: I have really enjoyed and still enjoy working with Rajesh at GWS. He is a remarkable developer who is able to pick up any project on a fly and get up to speed pretty fast.He is a very detailed, creative, cooperative, and reliable individual that can be a great asset to any software development team. On top of all that he is a great team player.To companies which are looking for developers. Don’t pass a great opportunity to have him on board! Believe me you are going to enjoy working with this guy.
-
-
-
+  - title: James Freeman
+    designation: Founder GP2U Telehealth - Doctors Online
+    date: 2011
+    description: Rajesh is an outstanding software engineer. We have found him trustworthy, consistent and reliable. His deep and detailed knowledge helped forge the bedrock of a complex Java/Perl integration project. If you are looking for and expert who produces superlative work look no further....
+  - title: Eric Holstege
+    designation: CTO/VPE e-commerce
+    date: 2010
+    description: Rajesh is an extremely talented and capable Object Oriented Perl programmer. He came into an existing code base and rapidly learned it and made it his own, generating very productive work almost immediately. A fast learner and Perl expert - and a joy to work with I would hire him again if the opportunity arose.
+  - title: Calvin Wong
+    designation: Senior QA Lead at Paypal
+    date: 2009
+    description: I had the good fortune to have worked with Rajesh at Globalware Solutions. As a project lead, it was reassuring to have Rajesh on the engineering team because he writes solid code which he delivered on time. Rajesh would be an asset to any organization. Additionally, he's a great guy!
+  - title: Ganesh Nayak
+    designation: Senior Technical Project Manager
+    date: 2010
+    description: I have worked as the Project Manager assigning Engineering tasks to Rajesh for various clients of Globalware Solutions. Rajesh is an exceptionally brilliant Software Engineering Professional. His ability to quickly grasp the functional requirements and follow-up on design and implementation with the highest degree of quality is the best recipe for the success of any organization he is affiliated with. Rajesh's attention to best practices in product development process and customer requirement details are just two of his many critical assets. I strongly recommend Rajesh for any endeavor he wishes to undertake in his field of expertise.
+  - title: Larry Mantel
+    designation: Senior QA Lead at Globalware Solutions
+    date: 2009
+    description: I have really enjoyed and still enjoy working with Rajesh at GWS. He is a remarkable developer who is able to pick up any project on a fly and get up to speed pretty fast.He is a very detailed, creative, cooperative, and reliable individual that can be a great asset to any software development team. On top of all that he is a great team player.To companies which are looking for developers. Don’t pass a great opportunity to have him on board! Believe me you are going to enjoy working with this guy.
 
 #This section is optional (as is the image link below)
 coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
-   courses:
+  profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+  courses:
     - title: Functional Programming Principles in Scala
       link: https://www.coursera.org/course/progfun
       optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
@@ -229,8 +229,8 @@ coursera:
 #This section is optional - embeds slideshows from speakerdeck
 # to get the speakerdeck ID copy the embed code and look for the data-it attribute
 speakerdeck:
-   profileurl: https://speakerdeck.com/robhinds
-   talks:
+  profileurl: https://speakerdeck.com/robhinds
+  talks:
     - title: Product Management for Engineers
       speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
       conference: API Conference, Berlin 2018
@@ -240,17 +240,17 @@ speakerdeck:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - dteklavya/indic-translations-api
- - dteklavya/bhashini_translator
- - dteklavya/kodeKloud-level-3-kubernetes
- - dteklavya/django_twitter_mining
- - dteklavya/Algorithms
- - dteklavya/PyBites
+  - dteklavya/indic-translations-api
+  - dteklavya/bhashini_translator
+  - dteklavya/kodeKloud-level-3-kubernetes
+  - dteklavya/django_twitter_mining
+  - dteklavya/Algorithms
+  - dteklavya/PyBites
 
 #Stackoverflow flair is optional
 stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
+  profileurl: http://stackoverflow.com/users/258813/rhinds
+  flairimageurl: http://stackoverflow.com/users/flair/258813.png
 
 intro: |
   I am a Passionate software engineer with 17+ years of experience in design and development of full life cycle commercial applications.<br/><br/>
@@ -260,16 +260,15 @@ intro: |
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>Strong Backend Development Experience</strong>: I have a proven track record of developing and maintaining core pipeline applications, APIs, and services. My expertise in Python, coupled with my proficiency in Linux, enables me to seamlessly integrate front-end and back-end components to create robust and scalable web applications.<br/><br/>
-   <strong>Expertise in API Development</strong>: I have a strong background in developing and maintaining APIs, implementing API security measures, and ensuring the smooth integration of APIs into applications. My experience in designing and managing databases required for API operations, as well as my knowledge of API testing and documentation, makes me a likeable member of any team.<br/><br/>
-   <strong>DevOps</strong>: I have deep experience working with AWS infrastructure, ensuring performance, security, and scalability. By leveraging my expertise in Linux Containers and Docker, Kubernetes and Terraform, I can build flexible and maintainable infrastructure.<br/><br/>
-   <strong>Python</strong>: I'm currently using Python as the primary language and have been building applications in Python for the last eight years. I am familiar with a range of Python libraries and frameworks, such as Django, Django REST Framework, Flask for building microservices. I've also developed backend tools using PySpark, requests, BeautifulSoup, Selenium, twitter etc. <br/><br/>
-   <strong>Front End</strong>: I have lot of experience in Jvascript and its framworks like Angular and Next.JS/React.JS in consuming APIs and developing single page applications.<br/><br/>
-   <strong>Perl</strong>: I have deep experienced in Perl and frameworks. I have worked with Catalyst (MVC), DBIx (ORM), POE, Moose, Inline::Java in addition to others. <br/><br/>
-   <strong>SQL/NoSQL</strong>: I have deep exposure to PostGreSQL, MySQL, Oracle and MondoDB<br/><br/>
-   <strong>Design Patterns</strong>: I have strong understanding of MVC, Active Record/ORM, MVP design patterns.<br/><br/>
-   <strong>Cloud platforms</strong>: I have primarily used AWS for running production applications on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3. Recently I setup encrypted storage on S3.  
-   <strong>Web Development</strong>: I have worked with various client side technologies, having used jQuery, Bootstrap. More recently I have written Angular JS applications.<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Jira etc.<br/><br/>
-   <strong>IDEs</strong>: I have worked with all of Eclipse, Jupyter, Komodo IDE, Vim, VSCode etc. VS Code is my current favorite IDE. <br/><br/>
-   
+  <strong>Strong Backend Development Experience</strong>: I have a proven track record of developing and maintaining core pipeline applications, APIs, and services. My expertise in Python, coupled with my proficiency in Linux, enables me to seamlessly integrate front-end and back-end components to create robust and scalable web applications.<br/><br/>
+  <strong>Expertise in API Development</strong>: I have a strong background in developing and maintaining APIs, implementing API security measures, and ensuring the smooth integration of APIs into applications. My experience in designing and managing databases required for API operations, as well as my knowledge of API testing and documentation, makes me a likeable member of any team.<br/><br/>
+  <strong>DevOps</strong>: I have deep experience working with AWS infrastructure, ensuring performance, security, and scalability. By leveraging my expertise in Linux Containers and Docker, Kubernetes and Terraform, I can build flexible and maintainable infrastructure.<br/><br/>
+  <strong>Python</strong>: I'm currently using Python as the primary language and have been building applications in Python for the last eight years. I am familiar with a range of Python libraries and frameworks, such as Django, Django REST Framework, Flask for building microservices. I've also developed backend tools using PySpark, requests, BeautifulSoup, Selenium, twitter etc. <br/><br/>
+  <strong>Front End</strong>: I have lot of experience in Jvascript and its framworks like Angular and Next.JS/React.JS in consuming APIs and developing single page applications.<br/><br/>
+  <strong>Perl</strong>: I have deep experienced in Perl and frameworks. I have worked with Catalyst (MVC), DBIx (ORM), POE, Moose, Inline::Java in addition to others. <br/><br/>
+  <strong>SQL/NoSQL</strong>: I have deep exposure to PostGreSQL, MySQL, Oracle and MondoDB<br/><br/>
+  <strong>Design Patterns</strong>: I have strong understanding of MVC, Active Record/ORM, MVP design patterns.<br/><br/>
+  <strong>Cloud platforms</strong>: I have primarily used AWS for running production applications on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3. Recently I setup encrypted storage on S3.  
+  <strong>Web Development</strong>: I have worked with various client side technologies, having used jQuery, Bootstrap. More recently I have written Angular JS applications.<br/><br/>
+  <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Jira etc.<br/><br/>
+  <strong>IDEs</strong>: I have worked with all of Eclipse, Jupyter, Komodo IDE, Vim, VSCode etc. VS Code is my current favorite IDE. <br/><br/>
