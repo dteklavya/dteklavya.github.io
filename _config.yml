@@ -19,8 +19,10 @@ primarylinks:
     imageurl: img/In-2C-34px-R.png
 
 pagelinks:
-  - title: Work
-    url: "#workExperience"
+  - title: Recent Work Experience
+    url: "#flWorkExperience"
+  - title: Tech Stack
+    url: "#skillsBubble"
   - title: Education
     url: "#education"
   - title: Recommendations
@@ -275,10 +277,10 @@ stackoverflow:
   flairimageurl: http://stackoverflow.com/users/flair/258813.png
 
 intro: |
-  I am a Passionate software engineer with 17+ years of experience in design and development of full life cycle commercial applications.<br/><br/>
+  I am a Passionate software engineer with 18+ years of experience in design and development of full life cycle commercial applications.<br/><br/>
   Primary technical stack includes but not limited to <strong>Python, Django, REST, SQL, Unix/Linux</strong>. Secondary technical skills include Java, Angular and React JS.<br/><br/>
-  DevOps skills include <strong>AWS, Docker, Kubernetes and Terraform</strong>.<br/><br/>
-  I have worked in large, medium and small teams for various companies and I'm currently working as a Free Lancer for last nine years. I love my current role as it provides me with flexibility and also challenges me to stretch my limits.
+  DevOps, Cloud and IaC skills include <strong>Linux, AWS, Docker, Kubernetes and Terraform</strong>.<br/><br/>
+  I have worked in large, medium and small teams for various companies and I'm currently working as a Free Lancer for last several years. I love my current role as it provides me with flexibility and also challenges me to stretch my limits.
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
