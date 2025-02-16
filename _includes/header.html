@@ -9,7 +9,11 @@
 		
 		<ul class="nav navbar-nav navbar-left" style="font-weight: bold;">
 				{% for link in site.pagelinks %}
+					{% if link.title == 'Blog' %}
+					<li><a target='_blank' href="{{link.url}}">{{link.title}}</a></li>
+					{% else %}
 					<li><a href="{{link.url}}">{{link.title}}</a></li>
+					{% endif %}
 				{% endfor %}
 		</ul>
 		

@@ -19,14 +19,18 @@ primarylinks:
     imageurl: img/In-2C-34px-R.png
 
 pagelinks:
-  - title: Recent Work Experience
+  - title: Work Experience
     url: "#flWorkExperience"
   - title: Tech Stack
     url: "#skillsBubble"
-  - title: Education
-    url: "#education"
+  # - title: Education
+  #   url: "#education"
   - title: Recommendations
     url: "#recommendations"
+  - title: Interests
+    url: "#personalInterests"
+  - title: Blog
+    url: https://eklavvya.hashnode.dev/
 
 #Any buzzword skills you want to include
 prog_skills:
@@ -323,6 +327,9 @@ intro: |
   Primary technical stack includes but not limited to <strong>Python, Django, REST, SQL, Unix/Linux</strong>. Secondary technical skills include Java, Angular and React JS.<br/><br/>
   DevOps, Cloud and IaC skills include <strong>Linux, AWS, Docker, Kubernetes and Terraform</strong>.<br/><br/>
   I have worked in large, medium and small teams for various companies and I'm currently working as a Free Lancer for last several years. I love my current role as it provides me with flexibility and also challenges me to stretch my limits.
+
+personal_interests: |
+  I like long drives and keeping fit. I like long walks and Yoga.
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
