@@ -42,6 +42,7 @@ prog_skills:
   - Angular
   - React JS
   - SQL
+  - Swagger
 
 containerization_skills:
   - Docker
@@ -54,6 +55,7 @@ cloud_skills:
 
 cicd_skills:
   - GitHub Workflows
+  - Travis
 
 skills:
   - Python
@@ -83,10 +85,13 @@ flroles:
           Implemented document management system for physical documents resulting in searchable and AI trained query interface.
         </li>
         <li>
+          Developed Terraform modules resulting streamlining cloud infrastructure management.
+        </li>
+        <li>
           Tech Stack - <strong>Django REST API, Paperless-ngx, LangChain, OpenAI API</strong>
         </li>
       </ul>
-  - title: Senior Software Engineer
+  - title: Senior Software Engineer -
     start: 2023
     end: 2023
     employer: Pivotal Energy Solutions
@@ -127,7 +132,7 @@ flroles:
         <li>
           Developed innovative data intensive solutions to extract, transform and load data using Django Serializers classes.
         </li>
-        <li>Tech Stack - Django REST API, MySQL<li>
+        <li>Tech Stack - Django REST API, MySQL</li>
       <ul>
   - title: Core Platform Engineer
     start: 2019
