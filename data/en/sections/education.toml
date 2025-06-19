@@ -1,0 +1,14 @@
+[[education.items]]
+degree = "B.Sc. in Mathematics"
+institution = "Guru Ghasidas University"
+year = "1996"
+
+[[education.items]]
+degree = "Diploma in Computer Programming and Applications"
+institution = "Guru Ghasidas University"
+year = "1997"
+
+[[education.items]]
+degree = "Certificate in C & Unix Shell Programming"
+institution = "DOEACC (Govt of India)"
+year = "1998"

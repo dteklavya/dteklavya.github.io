@@ -1,0 +1,9 @@
+[[projects.items]]
+name = "Twitter Analytics Dashboard"
+url = ""
+description = "Django REST + React/Redux app to analyze Twitter trends, includes Celery task queues."
+
+[[projects.items]]
+name = "Twitter Sentiment Analysis"
+url = ""
+description = "Real-time tweet classification using Flask frontend, Redis backend, and Spark ML."

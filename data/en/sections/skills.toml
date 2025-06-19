@@ -1,0 +1,15 @@
+[[skills.items]]
+name = "Languages & Frameworks"
+keywords = ["Python", "Django", "Flask", "Bash", "Perl", "JavaScript", "TypeScript"]
+
+[[skills.items]]
+name = "Frontend"
+keywords = ["Angular", "React", "HTML5", "CSS3"]
+
+[[skills.items]]
+name = "DevOps & Cloud"
+keywords = ["Docker", "Kubernetes", "AWS", "Terraform", "NGINX", "Linux"]
+
+[[skills.items]]
+name = "Databases"
+keywords = ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Redis"]
