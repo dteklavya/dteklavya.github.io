@@ -257,16 +257,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.information.list]]
-        title = "Papers"
+        title = "Current status/Work Preferences"
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
+        details = "Work style · Remote preferred, builder mindset"
         [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
+        details = "Location · India (open to remote/hybrid)"
+        [[params.information.list.items]]
+        details = "Availability · Open to freelance & contract, Available from July 2025"
 
 
 
@@ -279,18 +276,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/dteklavya"
+        title = "GitHub"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/rajeshpethe"
+        title = "LinkedIn"
         [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
-
-
-
-
-
+        icon = "fas fa-pen-nib"
+        url = "//eklavvya.hashnode.dev/"
+        title = "Blog posts"
