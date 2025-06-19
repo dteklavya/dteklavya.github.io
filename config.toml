@@ -206,7 +206,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Senior Developer"
         dates = "2006 - 2008"
         company = "Oracle India Pvt. Ltd."
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        details = "Developed back-end tools and packaging to monitor health of infrastructure in Oracle's infrastructure management system."
 
 
 
@@ -220,14 +220,29 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Built a microservice to detect phishing emails using a combination of heuristics and ML-based intent classification — delivering explainable results that clients could actually trust."
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Automating CS Workflows"
+        meta = "Pivotal Energy Solutions"
+        tagline = "Designed context-aware REST APIs and automated workflows for use cases that previously required manual intervention."
 
         [[params.projects.list]]
-        title = "Project Praesent"
+        title = "Floor plan laid bare"
+        meta = "Pivotal Energy Solutions"
+        tagline = "Developed full-stack applications, including a floor plan rendering app with Angular + Django REST — transforming raw architectural data into deep interactive insights."
+
+        [[params.projects.list]]
+        title = "Re-design ETL pipeline"
+        meta = "Collective2"
+        tagline = "Re-engineered a complex, bidirectional ETL pipeline using Django serializers to validate and move data between multiple heterogeneous systems."
+
+        [[params.projects.list]]
+        title = "Physical docs to Paperless"
+        meta = "Jain Associates"
+        tagline = "Implemented document management system for physical documents resulting in a searchable archive. Managed deployment on AWS using Terraform."
+
+        [[params.projects.list]]
+        title = "Explorations"
         meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        tagline = "Created APIs for document management, translation (Bhashini), and Twitter OAuth — many of which were turned into reusable packages or pluggable Django apps."
 
 
 
