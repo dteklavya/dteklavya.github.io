@@ -1,0 +1,292 @@
+# Page settings
+
+baseURL = "https://dteklavya.github.io/"
+languageCode = "en"
+title = ""
+theme = "devresume"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Rajesh Pethe"
+        tagline = "Senior Software Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Indore, India"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+91 95112 34092"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "rajesh.pethe@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://eklavvya.hashnode.dev/"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python/Django/FastAPI"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Docker, Kubernetes, Terraform, AWS"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Relentless problem solver"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BSc in Mathematics"
+        university = "Guru Ghasidas University"
+        dates = "1993 - 1996"
+        [[params.education.list]]
+        degree = "Diploma in Computer Programming and Applications"
+        university = "Guru Ghasidas University"
+        dates = "1996 - 1997"
+        [[params.education.list]]
+        degree = "Programming in 'C' Language/Shell Programming in Unix OS"
+        university = "DOEACC"
+        dates = "2003"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Yoga"
+        [[params.interests.list]]
+        name = "Long Drives"
+        [[params.interests.list]]
+        name = "Traveling"
+        [[params.interests.list]]
+        name = "Foodie"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I'm a hands-on software engineer with over 18 years of experience solving real-world problems with code. I’ve spent most of that time building web applications, backend systems, and automation tools — often using Python, Django, REST, and a healthy mix of SQL and shell scripts on Linux.\n\nAlong the way, I’ve also picked up frontend work with Angular and React, and built infrastructure using Docker, Kubernetes, AWS, and Terraform. I wouldn’t call myself a DevOps engineer, but I do believe in owning the full stack — from writing the API to making sure it runs smoothly in production.\n\nI’ve worked in all kinds of teams — large, small, remote, distributed, fast-paced, slow-paced. For the last few years, I’ve been freelancing, which has been both freeing and demanding in the best possible way. It’s pushed me to keep learning, stay sharp, and step outside my comfort zone. I love the mix of flexibility and challenge it brings."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2019 - Present"
+        company = "Google"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Lead Software Developer"
+        dates = "2016 - 2019"
+        company = "Apple"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2014 - 2016"
+        company = "Dropbox"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Senior Developer"
+        dates = "2013 - 2014"
+        company = "Uber"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+        [[params.experience.list]]
+        title = "Backend Developer"
+        dates = "2014 - 2016"
+        company = "Amazon"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2013 - 2014"
+        company = "Startup"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+
