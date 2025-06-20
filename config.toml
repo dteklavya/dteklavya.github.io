@@ -4,7 +4,7 @@ baseURL = "https://dteklavya.github.io/"
 languageCode = "en"
 title = ""
 theme = "devresume"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = ""
 
 
 
