@@ -286,4 +286,4 @@ googleAnalytics = ""
         [[params.social.list]]
         icon = "fas fa-pen-nib"
         url = "//eklavvya.hashnode.dev/"
-        title = "Blog posts"
+        title = "Blog"
