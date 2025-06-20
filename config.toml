@@ -18,6 +18,7 @@ googleAnalytics = ""
 
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
+    enableGoogleAnalytics = false
 
 
 
