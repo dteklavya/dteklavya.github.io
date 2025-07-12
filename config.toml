@@ -216,6 +216,11 @@ googleAnalytics = ""
         enable = true
 
         [[params.projects.list]]
+        title = "Enhanced Paperless-NGX"
+        meta = "Open Source"
+        tagline = "This project connects Paperless-ngx with a custom OCR + LLM pipeline — all running locally in Docker. It uses PaddleOCR for better text extraction, and a local LLM (via Ollama) to auto-generate document titles and types. Everything is modular: a FastAPI-based OCR microservice, a CLI-style pipeline controller, and clean integration with Paperless via its API. No cloud dependencies, no vendor lock-in — just Python and local AI doing real work."
+
+        [[params.projects.list]]
         title = "Dev.to Challenge"
         meta = "Open Source"
         tagline = "Built a microservice to detect phishing emails using a combination of heuristics and ML-based intent classification — delivering explainable results that clients could actually trust."
