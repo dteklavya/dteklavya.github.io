@@ -216,13 +216,24 @@ googleAnalytics = ""
         enable = true
 
         [[params.projects.list]]
-        title = "Enhanced Paperless-NGX"
+        title = "BuffaLogs"
         meta = "Open Source"
+        tagline = "Helped upgrade BuffaLogs, a web based security tool from Django 5.2.X to 6.0 - fixing old migrations was a challenge. Engineered a dev container configuration to provide developers with a consistent environment, including debugging, linting, and formatting."
+
+        [[params.projects.list]]
+        title = "Better OCR Pipeline for Paperless-NGX"
+        meta = "Pet Project"
+        tagline = "Built an event-driven OCR service that converts PDFs/images into searchable PDFs. Enhanced asynchronous service into a fun mix of Celery chords, distributed workers, PaddleOCR quirks, file-level orchestration, and lots of debugging I didn’t expect."
+
+
+        [[params.projects.list]]
+        title = "Enhanced Paperless-NGX"
+        meta = "Pet Project"
         tagline = "This project connects Paperless-ngx with a custom OCR + LLM pipeline — all running locally in Docker. It uses PaddleOCR for better text extraction, and a local LLM (via Ollama) to auto-generate document titles and types. Everything is modular: a FastAPI-based OCR microservice, a CLI-style pipeline controller, and clean integration with Paperless via its API. No cloud dependencies, no vendor lock-in — just Python and local AI doing real work."
 
         [[params.projects.list]]
         title = "Dev.to Challenge"
-        meta = "Open Source"
+        meta = "Side Project"
         tagline = "Built a microservice to detect phishing emails using a combination of heuristics and ML-based intent classification — delivering explainable results that clients could actually trust."
 
         [[params.projects.list]]
@@ -247,7 +258,7 @@ googleAnalytics = ""
 
         [[params.projects.list]]
         title = "Explorations"
-        meta = "Open Source"
+        meta = "Side Project"
         tagline = "Created APIs for document management, translation (Bhashini), and Twitter OAuth — many of which were turned into reusable packages or pluggable Django apps."
 
 
