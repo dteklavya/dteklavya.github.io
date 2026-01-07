@@ -49,7 +49,7 @@ googleAnalytics = ""
         text = "rajesh.pethe@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
+        url = "https://eklavvya.hashnode.dev/"
         text = "https://eklavvya.hashnode.dev/"
 
 
@@ -68,15 +68,12 @@ googleAnalytics = ""
         [[params.skills.list.items]]
         details = "PostgreSQL/MySQL"
         [[params.skills.list.items]]
-        details = "Docker, Kubernetes, Terraform, AWS"
+        details = "Advanced SQL"
+        [[params.skills.list.items]]
+        details = "Docker, CI/CD, AWS"
         [[params.skills.list.items]]
         details = "JavaScript/Angular/React"
-        [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        
 
         [[params.skills.list]]
         title = "Professional"
@@ -98,7 +95,7 @@ googleAnalytics = ""
         enable = true
 
         [[params.education.list]]
-        degree = "BSc in Mathematics"
+        degree = "Bachelor of Science (Mathematics)"
         university = "Guru Ghasidas University"
         dates = "1993 - 1996"
         [[params.education.list]]
