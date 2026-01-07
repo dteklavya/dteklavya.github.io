@@ -171,7 +171,7 @@ googleAnalytics = ""
         title = "Freelance Software Engineer"
         dates = "2010 - Present"
         company = "Various Clients"
-        details = "Over the past many years, I’ve worked as an independent consultant and freelance engineer, helping startups and small teams bring their ideas to life — or make their systems more reliable, secure, and scalable. While the core of my work has centered around backend development (mostly Python/Django and FastAPI), the projects themselves have been quite varied:"
+        details = "Over the past many years, I’ve worked as an independent freelance engineer, helping small and large teams — developing, troubleshooting, coordinating to improve their systems. While most of my work has been around backend development (mostly Python/Django and FastAPI), the projects themselves have been quite varied:"
         [[params.experience.list.items]]
         details = "Earned repeat engagements from multiple clients"
         [[params.experience.list.items]]
