@@ -26,7 +26,7 @@ googleAnalytics = ""
     [params.profile]
         enable = true
         name = "Rajesh Pethe"
-        tagline = "Senior Software Engineer"
+        tagline = "Senior Backend/DevOps Engineer"
         avatar = "avatar.png"
 
 
