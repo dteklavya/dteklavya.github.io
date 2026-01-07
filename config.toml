@@ -221,7 +221,7 @@ googleAnalytics = ""
         tagline = "Helped upgrade BuffaLogs, a web based security tool from Django 5.2.X to 6.0 - fixing old migrations was a challenge. Engineered a dev container configuration to provide developers with a consistent environment, including debugging, linting, and formatting."
 
         [[params.projects.list]]
-        title = "Better OCR Pipeline for Paperless-NGX"
+        title = "OCR Pipeline for Paperless-NGX"
         meta = "Pet Project"
         tagline = "Built an event-driven OCR service that converts PDFs/images into searchable PDFs. Enhanced asynchronous service into a fun mix of Celery chords, distributed workers, PaddleOCR quirks, file-level orchestration, and lots of debugging I didn’t expect."
 
