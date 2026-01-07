@@ -218,7 +218,7 @@ googleAnalytics = ""
         [[params.projects.list]]
         title = "BuffaLogs"
         meta = "Open Source"
-        tagline = "Helped upgrade BuffaLogs, a web based security tool from Django 5.2.X to 6.0 - fixing old migrations was a challenge. Engineered a dev container configuration to provide developers with a consistent environment, including debugging, linting, and formatting."
+        tagline = "Helped upgrade [BuffaLogs](https://github.com/certego/BuffaLogs), a web based security tool from Django 5.2.X to 6.0 - fixing old migrations was a challenge. Engineered a dev container configuration to provide developers with a consistent environment, including debugging, linting, and formatting."
 
         [[params.projects.list]]
         title = "OCR Pipeline for Paperless-NGX"
@@ -229,7 +229,7 @@ googleAnalytics = ""
         [[params.projects.list]]
         title = "Enhanced Paperless-NGX"
         meta = "Pet Project"
-        tagline = "This project connects Paperless-ngx with a custom OCR + LLM pipeline — all running locally in Docker. It uses PaddleOCR for better text extraction, and a local LLM (via Ollama) to auto-generate document titles and types. Everything is modular: a FastAPI-based OCR microservice, a CLI-style pipeline controller, and clean integration with Paperless via its API. No cloud dependencies, no vendor lock-in — just Python and local AI doing real work."
+        tagline = "This project connects [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) with a custom OCR + LLM pipeline — all running locally in Docker. It uses PaddleOCR for better text extraction, and a local LLM (via Ollama) to auto-generate document titles and types. Everything is modular: a FastAPI-based OCR microservice, a CLI-style pipeline controller, and clean integration with Paperless via its API. No cloud dependencies, no vendor lock-in — just Python and local AI doing real work."
 
         [[params.projects.list]]
         title = "Dev.to Challenge"
